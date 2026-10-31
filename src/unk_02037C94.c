@@ -1462,12 +1462,12 @@ u8 sub_020399B8(void) {
 
 void sub_020399DC(u32 errorCode) {
     ShowCommunicationError(HEAP_ID_DEFAULT, 1, errorCode);
-    while (TRUE) {}
+    while (TRUE) { }
 }
 
 void sub_020399EC(void) {
     ShowCommunicationError(HEAP_ID_DEFAULT, 4, 0);
-    while (TRUE) {}
+    while (TRUE) { }
 }
 
 void sub_020399FC(void) {
