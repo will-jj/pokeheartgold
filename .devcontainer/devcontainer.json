@@ -1,4 +1,3 @@
 {
-  "image": "ghcr.io/devcontainers/templates/ubuntu:3.0.0",
-  "features": {}
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu-26.04",  "features": {}
 }
