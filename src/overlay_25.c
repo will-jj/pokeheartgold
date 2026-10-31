@@ -58,17 +58,17 @@ static const MailMessageTemplate TrainerHouse_DefaultIntroMessage = {
     {                              \
         .language = GAME_LANGUAGE, \
         .nickname = {              \
-                     EOS,                   \
-                     EOS,                   \
-                     EOS,                   \
-                     EOS,                   \
-                     EOS,                   \
-                     EOS,                   \
-                     EOS,                   \
-                     EOS,                   \
-                     EOS,                   \
-                     EOS,                   \
-                     },                         \
+                     EOS,          \
+                     EOS,          \
+                     EOS,          \
+                     EOS,          \
+                     EOS,          \
+                     EOS,          \
+                     EOS,          \
+                     EOS,          \
+                     EOS,          \
+                     EOS,          \
+                     },            \
 }
 
 // clang-format off

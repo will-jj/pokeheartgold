@@ -189,9 +189,9 @@ static const AzaleaGymmickSpinarakRoute sSpinarakRoutes_From6[] = {
 };
 
 static const AzaleaGymmickSpinarakRoute sSpinarakRoutes_From7[] = {
-    {},
+    { },
     { NELEMS(sSpinarakRoute_7to10), 9, sSpinarakRoute_7to10 },
-    {},
+    { },
     { NELEMS(sSpinarakRoute_7to11), 10, sSpinarakRoute_7to11 },
 };
 
@@ -203,30 +203,30 @@ static const AzaleaGymmickSpinarakRoute sSpinarakRoutes_From8[] = {
 };
 
 static const AzaleaGymmickSpinarakRoute sSpinarakRoutes_From9[] = {
-    {},
-    {},
-    {},
-    {},
+    { },
+    { },
+    { },
+    { },
 };
 
 static const AzaleaGymmickSpinarakRoute sSpinarakRoutes_From10[] = {
     { NELEMS(sSpinarakRoute_8to10), 7, sSpinarakRoute_8to10 },
     { NELEMS(sSpinarakRoute_7to10), 6, sSpinarakRoute_7to10 },
-    {},
-    {},
+    { },
+    { },
 };
 
 static const AzaleaGymmickSpinarakRoute sSpinarakRoutes_From11[] = {
-    {},
-    {},
+    { },
+    { },
     { NELEMS(sSpinarakRoute_8to11), 7, sSpinarakRoute_8to11 },
     { NELEMS(sSpinarakRoute_7to11), 6, sSpinarakRoute_7to11 },
 };
 
 static const AzaleaGymmickSpinarakRoute sSpinarakRoutes_From12[] = {
-    {},
+    { },
     { NELEMS(sSpinarakRoute_8to12), 7, sSpinarakRoute_8to12 },
-    {},
+    { },
     { NELEMS(sSpinarakRoute_8to12), 7, sSpinarakRoute_8to12 },
 };
 
