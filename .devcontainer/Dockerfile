@@ -1,10 +1,9 @@
-FROM mcr.microsoft.com/devcontainers/javascript-node:0-18
+FROM mcr.microsoft.com/devcontainers/base:trixie
 RUN apt-get update \
  && export DEBIAN_FRONTEND=noninteractive \
  && apt-get -y --allow-downgrades install \
     ca-certificates \
-    software-properties-common \
-    g++-10-multilib \
+    g++-14-multilib \
     linux-libc-dev \
     binutils-arm-none-eabi \
     p7zip-full \
