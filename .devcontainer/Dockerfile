@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/base:ubuntu26.04
+FROM mcr.microsoft.com/devcontainers/base:ubuntu24.04
 RUN export DEBIAN_FRONTEND=noninteractive \
     && dpkg --add-architecture i386 \
     && apt-get update \
