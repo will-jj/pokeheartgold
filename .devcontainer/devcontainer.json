@@ -9,8 +9,7 @@
         "vscode": {
             "extensions": [
                 "ms-vscode.cpptools-extension-pack",
-                "ms-python.python",
-                "ms-azuretools.vscode-containers"
+                "ms-python.python"
             ]
         }
     }
