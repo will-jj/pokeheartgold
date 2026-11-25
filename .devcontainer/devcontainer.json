@@ -8,11 +8,15 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "ms-vscode.cpptools-extension-pack",
-                "ms-python.python"
+                "ms-vscode.cpptools",
+                "ms-python.python",
+                "mesonbuild.mesonbuild"
             ],
             "settings": {
-                "C_Cpp.clang_format_path": "/usr/local/bin/clang-format"
+                "C_Cpp.clang_format_path": "/usr/local/bin/clang-format",
+                "mesonbuild.mesonPath": "${workspaceFolder}/subprojects/meson-1.12.0/meson.py",
+                "mesonbuild.buildFolder": "build/heartgold.us",
+                "mesonbuild.configureOnOpen": false
             }
         }
     }
