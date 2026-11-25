@@ -10,7 +10,10 @@
             "extensions": [
                 "ms-vscode.cpptools-extension-pack",
                 "ms-python.python"
-            ]
+            ],
+            "settings": {
+                "C_Cpp.clang_format_path": "/usr/local/bin/clang-format"
+            }
         }
     }
 }
