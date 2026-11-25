@@ -5,6 +5,7 @@
             "--platform=linux/amd64"
         ]
     },
+    "postCreateCommand": "make meson",
     "customizations": {
         "vscode": {
             "extensions": [
