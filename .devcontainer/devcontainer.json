@@ -5,7 +5,7 @@
             "--platform=linux/amd64"
         ]
     },
-    "postCreateCommand": "make meson",
+    "postCreateCommand": "make setup_rom",
     "customizations": {
         "vscode": {
             "extensions": [
