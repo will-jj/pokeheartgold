@@ -14,9 +14,8 @@
             ],
             "settings": {
                 "C_Cpp.clang_format_path": "/usr/local/bin/clang-format",
-                "mesonbuild.mesonPath": "${workspaceFolder}/subprojects/meson-1.12.0/meson.py",
-                "mesonbuild.buildFolder": "build/heartgold.us",
-                "mesonbuild.configureOnOpen": false
+                "mesonbuild.mesonPath": "${containerWorkspaceFolder}/subprojects/meson-1.12.0/meson.py",
+                "mesonbuild.buildFolder": "build/heartgold.us"
             }
         }
     }
