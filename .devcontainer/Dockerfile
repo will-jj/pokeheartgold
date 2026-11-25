@@ -18,8 +18,5 @@ RUN export DEBIAN_FRONTEND=noninteractive \
         python3 \
         wget \
         xz-utils \
+    && ln -s /usr/bin/clang-format-19 /usr/local/bin/clang-format \
     && rm -rf /var/lib/apt/lists/*
-
-RUN ln -s /usr/bin/clang-format-19 /usr/bin/clang-format
-
-WORKDIR /
